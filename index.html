@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="home">
+    <div id="child">
+      <p id="user"></p>
+      <p id="money"></p>
+      <div id="room">
+        <div id="create" onclick="create()">tạo phòng</div>
+      </div>
+    </div>
+  </div>
+  <div id="game">
+    <button id="roomnumber"></button>
+    <button id="leave" onclick="leave()">Lượn</button>
+    <button id="start" onclick="st()">bắt đầu</button>
+    <button id="kick" onclick="kick(0,0)">Kick</button>
+    <div id="dealer"> Dealer:
+      <div id="info"></div>
+      <div id="dealeravatar"></div>
+    </div>
+    <div id="dealercard">
+      <div id="pcard1"></div>
+      <div id="pcard2"></div>
+      <div id="pcard3"></div>
+      <div id="pcard4"></div>
+      <div id="pcard5"></div>
+    </div>
+    <div id="playermove">
+      <div id="card1"></div>
+      <div id="card2"></div>
+      <button id="fold" onclick="action(fold)">fold</button>
+      <button id="bet" onclick="action(bet)">bet</button>
+      <button id="raise" onclick="action(raise)">raise</button>
+      <button id="check" onclick="action(check)">check</button>
+      <p id="pmoney" >Total</p>
+      <p id="pbetmoney" >bet</p>
+      <p id="ptime" >Time</p>
+      <p id="paction" >Action</p>
+    </div>
+    <div id="playerplace"></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

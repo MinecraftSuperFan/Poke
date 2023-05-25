@@ -1,0 +1,205 @@
+@media only screen and (min-height: 100vw) {
+  body {
+    font-size: 2vh;
+  }
+}
+@media only screen and (min-width: 100vh) {
+  body {
+    font-size: 2vw;
+  }
+}
+body
+{
+  margin-top: 0px;
+  margin-left: 0px;
+}
+#child{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#home
+{
+  position: absolute;
+}
+p {
+  text-align: center;
+  color: gray;
+  width: fit-content;
+  height: fit-content;
+  border: 1vw solid black;
+  margin: 1vh;
+}
+#room {
+  width: 50vh;
+  height: 50vh;
+  border: 1vw solid gray;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin-left: 2.5vw;
+}
+#create
+{
+  width: 10vh;
+  height: fit-content;
+  background-color: lightgray;
+  border-radius: 1vw;
+}
+#game
+{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+}
+#roomnumber
+{
+  position: absolute;
+  width: 20vw;
+  height: 7vw;
+  border: 1vw solid gray;
+  background-color: lightgrey;
+  top: 0.5vw;
+  left: 1vw;
+}
+#leave
+{
+  position: absolute;
+  width: 20vw;
+  height: 7vw;
+  border: 1vw solid gray;
+  background-color: lightgrey;
+  top: 9vw;
+  left: 1vw;
+}
+#kick
+{
+  position: absolute;
+  width: 20vw;
+  height: 7vw;
+  border: 1vw solid gray;
+  background-color: lightgrey;
+  top: 17.5vw;
+  left: 1vw;
+}
+#start 
+{
+  position: absolute;
+  display: none;
+  width: 20vw;
+  height: 7vw;
+  border: 1vw solid gray;
+  background-color: lightgrey;
+  top: 26vw;
+  left: 1vw;
+}
+#dealer
+{
+  background-color: yellow;
+  position: absolute;
+  width: 76vw;
+  height: 19vh;
+  top: 0px;
+  left: 24vw;
+}
+#dealeravatar
+{
+  position: static;
+  width: 34vw;
+  height: 40vw;
+  float: right;
+  background-image: url(/dealer.png);
+}
+#info
+{
+  position: static;
+  width: 34vw;
+  height: 40vw;
+  float: right;
+  overflow-x: hidden;
+}
+#dealercard
+{
+  background-color: blue;
+  position: absolute;
+  width: 100vw;
+  height: 19vh;
+  top: 19vh;
+}
+#playermove
+{
+  position: absolute;
+  width: 100vw;
+  height: 13.5vh;
+  top: 38vh;
+  overflow-x: hidden;
+  display: hidden;
+}
+#card1,#card2,#pcard1,#pcard2,#pcard3,#pcard4,#pcard5
+{
+  position: static;
+  width: 19.7vw;
+  height: 25vw;
+  float: left;
+  background-color: green;
+  margin-top: 0vw;
+  border: solid 0.2px black;
+}
+#fold,#raise,#bet,#check
+{
+  width: 20vw;
+  height: 10vw;
+  float: right;
+  margin: 1vw;
+}
+#pmoney
+{
+  position: absolute;
+  left: 39vw;
+  width: 14.5vw;
+  height: 5vw;
+  color: darkgreen;
+  border: solid 0.5px black;
+}
+#pbetmoney
+{
+  position: absolute;
+  left: 39vw;
+  width: 14.5vw;
+  height: 5vw;
+  top: 5vw;
+  color: blue;
+  border: solid 0.5px black;
+}
+#ptime
+{
+  position: absolute;
+  left: 39vw;
+  width: 14.5vw;
+  height: 5vw;
+  color: limegreen;
+  top: 10vw;
+  border: solid 0.5px black;
+}
+#pbet 
+{
+  position: absolute;
+  left: 39vw;
+  width: 14.5vw;
+  height: 5vw;
+  top: 15vw;
+  color: darkred;
+  border: solid 0.5px black;
+}
+#playerplace
+{
+  position: absolute;
+  width: 98vw;
+  height: 60vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  left: 1vw;
+  top: 51.5vh;
+  border: 0.5vw solid lightgrey;
+}
